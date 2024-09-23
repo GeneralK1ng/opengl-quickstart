@@ -1,0 +1,66 @@
+# Ignore CMake-generated cache files
+cmake-build-*/
+
+# Ignore CMake-generated cache files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Ignore compiled binaries
+bin/
+*.exe
+*.dll
+
+# Ignore IDE configuration files (e.g. CLion)
+.idea/
+*.iml
+*.log
+
+# Ignoring Visual Studio Code configuration files
+.vscode/
+
+# Ignore compiled output object files and library files
+*.o
+*.a
+*.so
+*.lib
+
+# Ignore OS-generated system files
+.DS_Store
+Thumbs.db
+
+# Ignore other temporary files
+*.tmp
+*.swp
+*.bak
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+
+# Executables
+*.out
+*.app
+
